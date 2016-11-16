@@ -49,6 +49,7 @@ static const CGFloat kDotLabelSpan = 2;
 
 - (void)awakeFromNib
 {
+    [super awakeFromNib];
     [self setupMainView];
 }
 
